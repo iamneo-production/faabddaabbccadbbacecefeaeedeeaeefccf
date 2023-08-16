@@ -1,5 +1,8 @@
+
+@RestController
 public class ApiController {
-    public String display(){
-        return ""
+    @GetMapping("/welcome")
+    public String Welcome(){
+        return "Welcome String Boot!";
     }
 }
